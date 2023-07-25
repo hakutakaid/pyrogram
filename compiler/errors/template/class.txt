@@ -1,0 +1,13 @@
+{notice}
+
+from ..rpc_error import RPCError
+
+
+class {super_class}(RPCError):
+    {docstring}
+    CODE = {code}
+    """``int``: RPC Error Code"""
+    NAME = __doc__
+
+
+{sub_classes}
